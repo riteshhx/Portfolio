@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="riitesh.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Ritesh Tripathi</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="ham-nav">
+        <div class="logo">Ritesh Tripathi</div>
+        <div class="ham-menu">
+            <div class="ham-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile" class="section-container">
+        <div class="section-pic">
+            <img src="mai.jpg" alt="Ritesh Tripathi" class="main-pic">
+        </div>
+        <div class="section-text">
+            <p class="section-text-p1">Hello, I'm</p>
+            <h1 class="title">Ritesh Tripathi</h1>
+            <p class="section-text-p2">Frontend Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" 
+                onclick="window.open('ritesh.docx')">
+            Donload CV</button>
+            <button class="btn btn-color-1" 
+                onclick="location.href='#contact'">
+            Conatct Info
+        </button>
+            </div>
+            <div id="socials-container">
+                <img src="linkedin.jpg" alt="my linkedln" style="
+                    border-radius: 50%;"
+                class="icon" onclick="location.href='http://linkedin.com/'"/>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section-text-p1">Get to know more</p>
+        <h1 class="title">About me</h1>
+        <div class="section-container">
+            <div class="section-pic-container">
+                <img
+                src="pfp.jpg"
+                height="350px"
+                width="420px"
+                alt="profile picture"
+                class="about-pic"
+                />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="experience.png"
+                        alt="experience-icon"
+                        class="icon"
+                        />
+                        <h3>Experience</h3>
+                        <p>2+ years<br>Frontend Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="education.jpg"
+                        alt="education-icon"
+                        class="icon"
+                        />
+                        <h3>Education</h3>
+                        <p>BCA<br>MCA</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sed quod eveniet itaque repellat, minima mollitia eligendi, error tenetur doloremque architecto nulla quo aliquam aspernatur placeat, repudiandae natus provident magni?
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="arrow.png" alt="arrow icon" class="icon arrow"
+        onclick="location.href='#experience'"/>
+    </section>
+    <section id="experience">
+        <p class="section-text-p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">
+                        Frontend Development</h2>
+                        <div class="article-container">
+                            <article>
+                                <img
+                                src="checkmark.jpg"
+                                height="30px"
+                                width="30px"
+                                alt="checkmark"
+                                class="icon"/>
+                                <div>
+                                    <h3>HTML</h3>
+                                    <p>Experience</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img
+                                src="checkmark.jpg"
+                                height="30px"
+                                width="30px"
+                                alt="checkmark"
+                                class="icon"/>
+                                <div>
+                                    <h3>CSS</h3>
+                                    <p>Experience</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img
+                                src="checkmark.jpg"
+                                height="30px"
+                                width="30px"
+                                alt="checkmark"
+                                class="icon"/>
+                                <div>
+                                    <h3>SASS</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img
+                                src="checkmark.jpg"
+                                height="30px"
+                                width="30px"
+                                alt="checkmark"
+                                class="icon"/>
+                                <div>
+                                    <h3>JavaScript</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img
+                                src="checkmark.jpg"
+                                height="30px"
+                                width="30px"
+                                alt="checkmark"
+                                class="icon"/>
+                                <div>
+                                    <h3>TypeScript</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img
+                                src="checkmark.jpg"
+                                height="30px"
+                                width="30px"
+                                alt="checkmark"
+                                class="icon"/>
+                                <div>
+                                    <h3>Material UI</h3>
+                                    <p>Experience</p>
+                                </div>
+                            </article>
+                            
+                        </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">
+                        Backend Development</h2>
+                        <div class="article-container">
+                            <article>
+                                <img
+                                src="checkmark.jpg"
+                                height="30px"
+                                width="30px"
+                                alt="checkmark"
+                                class="icon"/>
+                                <div>
+                                    <h3>Postgre SQL</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img
+                                src="checkmark.jpg"
+                                height="30px"
+                                width="30px"
+                                alt="checkmark"
+                                class="icon"/>
+                                <div>
+                                    <h3>Node js</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img
+                                src="checkmark.jpg"
+                                height="30px"
+                                width="30px"
+                                alt="checkmark"
+                                class="icon"/>
+                                <div>
+                                    <h3>Express JS</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img
+                                src="checkmark.jpg"
+                                height="30px"
+                                width="30px"
+                                alt="checkmark"
+                                class="icon"/>
+                                <div>
+                                    <h3>Git</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <img src="arrow.png" alt="arrow icon" class="icon arrow"
+        onclick="location.href='#projects'"/>
+    </section>
+    <section id="contact">
+        <p class="section-text-p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="mail.png"
+                alt="mail"
+                height="30px"
+                width="30px"
+                class="icon">
+                <p>
+                    <a href="mailto:riteshtripathi771@gmail.com">
+                        riteshtripathi771</a>
+                </p>
+            </div>
+            <div class="contact-info-container">
+                <img src="linkedin.jpg"
+                alt="mail"
+                height="30px"
+                width="30px"
+                class="icon">
+                <p>
+                    <a href="https://www.linkedin.com">
+                        LinkedIn</a>
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Ritesh Tripathi. All Rights Reserved.</p>
+    </footer>
+    <script src="ritesh.js"></script>
+</body>
+</html>
